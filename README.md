@@ -1,1 +1,2 @@
 # Network-Intrusion-Detection
+This code uses the Scapy library to capture packets on a specified network interface, and then inspects the packets for signatures using the Suricata library. If a signature is detected, the code prints an alert message with information about the signature. If no signature is detected, the code performs anomaly detection on the packet based on custom rules (in this example, checking for HTTP requests with unusually large payloads).
